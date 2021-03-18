@@ -36,10 +36,9 @@ window.afdb = 'SLIMM Productie'
 Vue.config.productionTip = false
 
 Vue.use(PIVue, {
-  url: 'https://www.abelheinsbroek.nl/piwebapi',
+  url: 'https//slimm.vitens.lan/piwebapi',
   //url: '/piwebapi',
-  auth_header: 'Basic YWRtaW46c3BpYy1waS1sb3RvLWRpeg==',
-  webid2: false
+  webid2: true
 })
 
 /* eslint-disable no-new */
